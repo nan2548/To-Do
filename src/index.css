@@ -15,6 +15,7 @@ body {
 .card { background: var(--card); box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.04); border-radius: 14px; }
 .inp { background: transparent; border: 1px solid var(--line); color: var(--text); border-radius: 10px; padding: .55rem .75rem; outline: none; }
 .inp:focus { border-color: #6366f1; box-shadow: 0 0 0 3px rgba(99,102,241,.2); }
+.inp[type="date"]{color-scheme:light dark}
 .item { transition: opacity .25s, transform .25s, max-height .25s, margin .25s; max-height: 120px; }
 .item.leaving { opacity: 0; transform: translateX(40px); max-height: 0; margin: 0; }
 .item.entering { animation: in .25s ease; }
